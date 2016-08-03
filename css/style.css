@@ -1,0 +1,56 @@
+#intro-slide {
+    height: 100vh;
+    background-size: cover;
+    background-image: url(http://www.fillmurray.com/2000/2000);
+    background-color: #3f3f3f;
+    background-blend-mode: multiply;
+}
+.intro-section {
+    background-color: transparent;
+}
+#logo-container {
+    position: relative;
+    top: 65vh;
+}
+#main-logo {
+    text-align: left;
+}
+#main-logo> .logo-words {
+    font: 300 32px/1.4em 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+#divergent-paths{
+	padding: 50px 0;
+	background-color: red;
+}
+
+#teacher-student> img {
+    position: relative;
+}
+
+.fa{
+	color: white;
+	position: absolute;
+	z-index: 100;
+	font-size: 15em;
+	text-shadow: 2px 1px 6px rgba(0, 0, 0, 0.42);
+}
+
+.fa-pencil, .fa-coffee {
+}
+
+.copy{
+  width: 45%;
+  margin: 0 auto;
+}
+
+.copy>h2{
+  font-variant: small-caps;
+  text-align: center;
+  color: white;
+}
+
+.img-responsive{
+  margin: 0 auto;
+}
